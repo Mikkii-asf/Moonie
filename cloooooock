@@ -4,7 +4,7 @@
     <style>
          @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
         body {
-            color: white;
+            color: pink;
             font-size: 50px;
             font-style: bold;
             font-family: 'Cherry Bomb One', system-ui;
@@ -13,12 +13,11 @@
 
         .time {
             font-size: 100px
-
         }
 
         .code {
             opacity: 0.5;
-            -webkit-text-stroke: 4px  #F0D9E4;
+            -webkit-text-stroke: 4px  #000000ff;
         }
     </style>
     <script>
@@ -50,9 +49,11 @@
 
 <body onload="startTime()">
 
-    <span class="code"</span>
+    <span class="code"></span>
     <br />
-    <span class="date"><span id="date"></span></span>
+    <span class="date">
+        <span id="date"></span>
+    </span>
     <br />
     <span class="time">
         <span id="txt"></span> EST
