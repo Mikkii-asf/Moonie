@@ -5,12 +5,16 @@
          @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
         body {
             color: pink;
-            font-size: 50px;
+            font-size: clamp(18px, 2vw, 40px);
             font-weight: bold;
             font-family: 'Cherry Bomb One', system-ui;
             text-align: center;
         }
-
+        
+        .time {
+            font-size: clamp(40px, 6vw, 120px);
+        }
+        
         .code {
             opacity: 0.5;
             -webkit-text-stroke: 4px  #000000ff;
